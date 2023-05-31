@@ -31,4 +31,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ aleenairfan.bootcamp-2020-class3.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ aleenairfan-bootcamp-2020-class3.surge.sh --token ${{secrets.SURGE_TOKEN}}
